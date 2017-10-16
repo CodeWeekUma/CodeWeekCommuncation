@@ -1,5 +1,8 @@
 package com.example.flp_.codeweekcommuncation;
 
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
+
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

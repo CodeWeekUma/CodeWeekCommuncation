@@ -33,4 +33,29 @@
         android:layout_height="wrap_content"
         android:text="Send Dummy data"
         android:onClick="handleSendDataButton"/>
+
+    <TextView
+        android:text="Send Continuous Orientation Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ToggleButton
+        android:id="@+id/send_orient_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="handleONOFFClick"/>
+        <EditText
+            android:id="@+id/frequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="frequency"
+            android:text="10"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hz"/>
+    </LinearLayout>
 </LinearLayout>
