@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
     private static final String TAG = "Communication Example";
     private static final String DEVICE = "android";
     private static final String SENSOR = "orientation";
-    private static final String DATA = "angles";
+    private static final String DATA = "rotation";
 
     private CommunicationHandler _comHandler;
 
